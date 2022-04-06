@@ -1,0 +1,50 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/* header */
+.header {
+  background-image: linear-gradient(45deg, #000000a8, transparent),
+    url("./images/p5.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header h1 {
+  font-size: 70px;
+}
+.header p {
+  font-size: 20px;
+}
+.butn {
+  background-color: rgb(250 112 154);
+  border: none;
+  height: 45px;
+  width: 250px;
+  border-radius: 0.3rem;
+}
+.butn a {
+  text-decoration: none;
+}
+/* navbar */
+.nav-link:hover {
+  color: rgb(250 112 154) !important;
+}
+.navbar-brand {
+  margin-left: 6rem;
+}
+.navbar-nav {
+  margin-right: 6rem;
+}
+.text-span {
+  color: rgb(250 112 154);
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #bbb;
+}
+.socials i {
+  text-shadow: 1px -1px rgb(250 112 154);
+}
