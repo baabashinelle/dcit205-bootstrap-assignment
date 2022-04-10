@@ -79,6 +79,9 @@ footer {
   .blog-row {
     flex-direction: column;
   }
+  .bars{
+    color: #fff;
+  }
 }
 
 /* Tablet view */
@@ -121,5 +124,8 @@ footer {
   .p-row,
   .blog-row {
     flex-direction: column;
+  }
+  .bars{
+    color: #fff;
   }
 }
