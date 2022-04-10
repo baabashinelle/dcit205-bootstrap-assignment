@@ -51,25 +51,75 @@ footer {
 
 /* Mobile view */
 @media screen and (max-width: 600px) {
-  .welcome-h, .education-h, .projects-h, .blog-h, .contact-h {
-    font-size: 24px!important;
+  .welcome-h,
+  .education-h,
+  .projects-h,
+  .blog-h,
+  .contact-h {
+    font-size: 24px !important;
   }
-  .butn{
+  .butn {
     width: 200px;
   }
-  .butn a{
+  .butn a {
     font-size: 16px;
   }
-  .welcome-p{
-    font-size: 16px!important;
+  .welcome-p {
+    font-size: 16px !important;
   }
-  .navbar-brand{
+  .navbar-brand {
     margin-left: 0;
   }
-  .my-pic, .rm-pic{
+  .my-pic,
+  .rm-pic {
     width: 100%;
   }
-  .index-row, .p-row, .blog-row{
+  .index-row,
+  .p-row,
+  .blog-row {
+    flex-direction: column;
+  }
+}
+
+/* Tablet view */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .welcome-h,
+  .education-h,
+  .projects-h,
+  .blog-h,
+  .contact-h {
+    font-size: 38px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 2rem;
+  }
+
+  .butn {
+    width: 200px;
+  }
+
+  .butn a {
+    font-size: 16px;
+  }
+
+  .welcome-p {
+    font-size: 18px !important;
+  }
+
+  .navbar-brand {
+    margin-left: 2rem;
+  }
+
+  .my-pic,
+  .rm-pic {
+    width: 100%;
+  }
+
+  .index-row,
+  .p-row,
+  .blog-row {
     flex-direction: column;
   }
 }
