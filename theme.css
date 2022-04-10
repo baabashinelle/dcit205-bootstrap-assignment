@@ -51,8 +51,14 @@ footer {
 
 /* Mobile view */
 @media screen and (max-width: 600px) {
-  .welcome-h {
+  .welcome-h, .education-h, .projects-h, .blog-h, .contact-h {
     font-size: 24px!important;
+  }
+  .butn{
+    width: 200px;
+  }
+  .butn a{
+    font-size: 16px;
   }
   .welcome-p{
     font-size: 16px!important;
@@ -60,10 +66,10 @@ footer {
   .navbar-brand{
     margin-left: 0;
   }
-  .my-pic{
+  .my-pic, .rm-pic{
     width: 100%;
   }
-  .index-row{
+  .index-row, .p-row, .blog-row{
     flex-direction: column;
   }
 }
