@@ -48,3 +48,22 @@ footer {
 .socials i {
   text-shadow: 1px -1px rgb(250 112 154);
 }
+
+/* Mobile view */
+@media screen and (max-width: 600px) {
+  .welcome-h {
+    font-size: 24px!important;
+  }
+  .welcome-p{
+    font-size: 16px!important;
+  }
+  .navbar-brand{
+    margin-left: 0;
+  }
+  .my-pic{
+    width: 100%;
+  }
+  .index-row{
+    flex-direction: column;
+  }
+}
